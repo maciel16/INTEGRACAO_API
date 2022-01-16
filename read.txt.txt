@@ -1,0 +1,13 @@
+---- A Conexão DSN necessita de uma pré-configuração para que seja utilizada.
+
+Pesquisar por ODBC(X64) no menu inicial
+
+Adicionar um novo System DSN - SQL Server Native Client 11.0
+
+Informar Nome e Servidor
+
+Definir metodo de autenticacao
+
+Selecionar quais bancos serão utilizados
+
+Testar o Data Source
