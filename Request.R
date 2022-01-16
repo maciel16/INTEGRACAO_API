@@ -36,7 +36,7 @@ base_inmet <- base_inmet[, sort(names(base_inmet))]
 db_conn <- odbcConnect("LocalDSN", rows_at_time = 1)
 
 if(db_conn == -1) {
-  # For a Production system, I would add in some logging
+  # Adicionar mensagem de log 
   quit("no", 1)
 }
 
